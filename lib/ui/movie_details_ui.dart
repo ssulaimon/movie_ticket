@@ -88,7 +88,7 @@ class MovieDetailsUi extends StatelessWidget {
                                   imageLink:
                                       "https://image.tmdb.org/t/p/w500${movieDetails['movieDetails']!.image}")),
                           icon: Icon(
-                            Icons.heart_broken,
+                            Icons.favorite_outline,
                             color: CustomColors.red,
                           ))
                     ],
